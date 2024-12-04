@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sabs-serif;
+}
+header{
+    height: 100vh;
+    background-image: url(images/pexels-andreimike-1271619.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(156, 136, 136);
+}
+.nav-container {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 25%;
+}
+.logo i{
+    color: white;
+    font-size: 40px;
+}
+.nav-item{
+    width: 50%;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.join-btn{
+    width: 25%;
+}
+ul li{
+    list-style: none;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.join-btn button{
+    font-size: 18px;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/group-travelars.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh;
+}
+.hero-content {
+    margin-top: 10%;
+}
+.hero h2 {
+    font-size: 4.5rem;
+}
+
+.hero p {
+    font-size:21px;
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.blog-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 26%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-post h3 {
+    font-size: 1.5rem;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    color: #555;
+    padding: 15px 0px;
+}
+
+.blog-post img{
+    height: 190px;
+    width: 345px;
+}
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    color: #ff6f61;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
